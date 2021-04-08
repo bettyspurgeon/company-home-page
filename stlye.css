@@ -4,10 +4,10 @@ html, body {
     text-align: center;
     margin:0px;
     padding:0px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
-.header {;
-}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -15,20 +15,16 @@ html, body {
   position: fixed;
   background-color: black;
   width: 100%;
-  
- 
 }
 
 ul {
   list-style-type: none;
 }
-.header h1 {
- 
-}
 
 .navbar li {
     display: inline-block;
 }
+
 a {
     color: white;
     text-decoration: none;
@@ -36,12 +32,21 @@ a {
 }
 .about-us {
     display: flex;
+    align-items: center;
+    justify-content: center;
     height: 650px; 
     background-image: url(/images/winesplash.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     width: auto;
     
+}
+.about-us .content {
+    background-color: black;
+    width: 100%;
+}
+#wines {
+    padding-top: 100px;
 }
 .packages {
     display: flex;
@@ -53,10 +58,18 @@ a {
 #wines img {
     height: 200px;
 }
-.package {
-
-    
+.Sommeliers-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 #sommeliers img {
     height: 300px;
+}
+input {
+    width: 300px;
+}
+label {
+    font-size: 20px;
 }
