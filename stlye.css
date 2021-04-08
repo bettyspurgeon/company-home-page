@@ -1,0 +1,62 @@
+html, body {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    margin:0px;
+    padding:0px;
+}
+
+.header {;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  
+ 
+}
+
+ul {
+  list-style-type: none;
+}
+.header h1 {
+ 
+}
+
+.navbar li {
+    display: inline-block;
+}
+a {
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.about-us {
+    display: flex;
+    height: 650px; 
+    background-image: url(/images/winesplash.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    
+}
+.packages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+#wines img {
+    height: 200px;
+}
+.package {
+
+    
+}
+#sommeliers img {
+    height: 300px;
+}
